@@ -21,8 +21,8 @@ namespace SelamMarket.Publisher.Service
 
             try
             {
-                Uri uri = new Uri(RabbitMqConsts.RabbitMqUri);
-                var endPoint = await _busControl.GetSendEndpoint(new Uri($"{RabbitMqConsts.RabbitMqUri}/{RabbitMqConsts.Queue}"));
+                Uri uri = new Uri(RabbitMqParam.RabbitMqUri);
+                var endPoint = await _busControl.GetSendEndpoint(new Uri($"{RabbitMqParam.RabbitMqUri}/{RabbitMqParam.Queue}"));
                 await endPoint.Send(order);
 
                 await Task.FromResult(0);

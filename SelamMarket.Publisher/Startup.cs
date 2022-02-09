@@ -34,10 +34,10 @@ namespace SelamMarket.Publisher
             {
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(config =>
                 {
-                    config.Host(new Uri(RabbitMqConsts.RabbitMqUri), h =>
+                    config.Host(new Uri(RabbitMqParam.RabbitMqUri), h =>
                     {
-                        h.Username(RabbitMqConsts.Username);
-                        h.Password(RabbitMqConsts.Password);
+                        h.Username(RabbitMqParam.Username);
+                        h.Password(RabbitMqParam.Password);
                     });
                 }));
             });

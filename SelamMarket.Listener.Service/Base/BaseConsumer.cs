@@ -22,7 +22,7 @@ namespace SelamMarket.Listener.Service.Base
             string requestLogData = SerializeAndIndentJsonIfNeeded(requestBody);
             await _coreLogger.Log(requestLogData);
 
-           ConsumeAsync(context.Message);
+            ConsumeAsync(context.Message);
         }
 
         public abstract void ConsumeAsync(TRequest request);

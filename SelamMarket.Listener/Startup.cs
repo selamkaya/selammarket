@@ -48,13 +48,13 @@ namespace SelamMarket.Listener
                 x.AddConsumer<OrderConsumer>();
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(config =>
                 {
-                    config.Host(new Uri(RabbitMqConsts.RabbitMqUri), h =>
+                    config.Host(new Uri(RabbitMqParam.RabbitMqUri), h =>
                     {
-                        h.Username(RabbitMqConsts.Username);
-                        h.Password(RabbitMqConsts.Password);
+                        h.Username(RabbitMqParam.Username);
+                        h.Password(RabbitMqParam.Password);
                     });
 
-                    config.ReceiveEndpoint(RabbitMqConsts.Queue, endpoint => endpoint.Consumer<OrderConsumer>(provider));
+                    config.ReceiveEndpoint(RabbitMqParam.Queue, endpoint => endpoint.Consumer<OrderConsumer>(provider));
                 }));
             });
             services.AddMassTransitHostedService();
