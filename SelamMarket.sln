@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarket.Publisher", "SelamMarket.Publisher\SelamMarket.Publisher.csproj", "{79D37FB8-1F56-402E-824F-DBBD10D1799E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarket.Comman", "SelamMarket.Comman\SelamMarket.Comman.csproj", "{40C088FA-7FF8-416A-B861-C61BBFF4FF72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher", "Publisher", "{23B0EE86-48C4-4BD2-B068-8F98E214AB78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Listener", "Listener", "{5EC36548-4CDB-48DC-898A-3D362B08B6EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarket.Publisher.Service", "SelamMarket.Publisher.Service\SelamMarket.Publisher.Service.csproj", "{D87F5D0F-4BEA-4F50-AA44-B58250B1019A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarket.Listener.Service", "SelamMarket.Listener.Service\SelamMarket.Listener.Service.csproj", "{75B2CC8B-8E74-4F4B-A363-6ABD5CF6DDB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarket.Logging", "SelamMarket.Logging\SelamMarket.Logging.csproj", "{A4E186B1-D98A-49DF-AA8F-BA7CA17332AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarket.Listener", "SelamMarket.Listener\SelamMarket.Listener.csproj", "{57B72173-B786-45FB-8673-BA2CEE4AC036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Client", "_Client", "{F3EACE8D-BBA2-4A08-83DF-159CE4ADDD6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarketClient.Con", "SelamMarketClient.Con\SelamMarketClient.Con.csproj", "{2CF7FD2D-8EB2-43D6-9B2F-D61B1B230F96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelamMarketClient.Service", "SelamMarketClient.Service\SelamMarketClient.Service.csproj", "{1B55D166-5510-4E5A-BA91-B14D328385BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{95E7D630-89BD-499B-AF13-C05896C038B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelamMarket.Repository", "SelamMarket.Repository\SelamMarket.Repository.csproj", "{0C92F914-9F4D-445B-9BDA-BB855E9B4EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelamMarket.Data", "SelamMarket.Data\SelamMarket.Data.csproj", "{1EED927A-ABED-424F-8E6A-F8790E7989B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79D37FB8-1F56-402E-824F-DBBD10D1799E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D37FB8-1F56-402E-824F-DBBD10D1799E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D37FB8-1F56-402E-824F-DBBD10D1799E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D37FB8-1F56-402E-824F-DBBD10D1799E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C088FA-7FF8-416A-B861-C61BBFF4FF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C088FA-7FF8-416A-B861-C61BBFF4FF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C088FA-7FF8-416A-B861-C61BBFF4FF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C088FA-7FF8-416A-B861-C61BBFF4FF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87F5D0F-4BEA-4F50-AA44-B58250B1019A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87F5D0F-4BEA-4F50-AA44-B58250B1019A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87F5D0F-4BEA-4F50-AA44-B58250B1019A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87F5D0F-4BEA-4F50-AA44-B58250B1019A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B2CC8B-8E74-4F4B-A363-6ABD5CF6DDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B2CC8B-8E74-4F4B-A363-6ABD5CF6DDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B2CC8B-8E74-4F4B-A363-6ABD5CF6DDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B2CC8B-8E74-4F4B-A363-6ABD5CF6DDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E186B1-D98A-49DF-AA8F-BA7CA17332AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E186B1-D98A-49DF-AA8F-BA7CA17332AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E186B1-D98A-49DF-AA8F-BA7CA17332AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E186B1-D98A-49DF-AA8F-BA7CA17332AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B72173-B786-45FB-8673-BA2CEE4AC036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B72173-B786-45FB-8673-BA2CEE4AC036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B72173-B786-45FB-8673-BA2CEE4AC036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B72173-B786-45FB-8673-BA2CEE4AC036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF7FD2D-8EB2-43D6-9B2F-D61B1B230F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF7FD2D-8EB2-43D6-9B2F-D61B1B230F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF7FD2D-8EB2-43D6-9B2F-D61B1B230F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF7FD2D-8EB2-43D6-9B2F-D61B1B230F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B55D166-5510-4E5A-BA91-B14D328385BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B55D166-5510-4E5A-BA91-B14D328385BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B55D166-5510-4E5A-BA91-B14D328385BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B55D166-5510-4E5A-BA91-B14D328385BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C92F914-9F4D-445B-9BDA-BB855E9B4EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C92F914-9F4D-445B-9BDA-BB855E9B4EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C92F914-9F4D-445B-9BDA-BB855E9B4EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C92F914-9F4D-445B-9BDA-BB855E9B4EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EED927A-ABED-424F-8E6A-F8790E7989B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EED927A-ABED-424F-8E6A-F8790E7989B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EED927A-ABED-424F-8E6A-F8790E7989B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EED927A-ABED-424F-8E6A-F8790E7989B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79D37FB8-1F56-402E-824F-DBBD10D1799E} = {23B0EE86-48C4-4BD2-B068-8F98E214AB78}
+		{D87F5D0F-4BEA-4F50-AA44-B58250B1019A} = {23B0EE86-48C4-4BD2-B068-8F98E214AB78}
+		{75B2CC8B-8E74-4F4B-A363-6ABD5CF6DDB2} = {5EC36548-4CDB-48DC-898A-3D362B08B6EE}
+		{57B72173-B786-45FB-8673-BA2CEE4AC036} = {5EC36548-4CDB-48DC-898A-3D362B08B6EE}
+		{2CF7FD2D-8EB2-43D6-9B2F-D61B1B230F96} = {F3EACE8D-BBA2-4A08-83DF-159CE4ADDD6F}
+		{1B55D166-5510-4E5A-BA91-B14D328385BF} = {F3EACE8D-BBA2-4A08-83DF-159CE4ADDD6F}
+		{0C92F914-9F4D-445B-9BDA-BB855E9B4EEF} = {95E7D630-89BD-499B-AF13-C05896C038B9}
+		{1EED927A-ABED-424F-8E6A-F8790E7989B3} = {95E7D630-89BD-499B-AF13-C05896C038B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04648C17-8546-4BEC-8204-E57BB72C16B9}
+	EndGlobalSection
+EndGlobal

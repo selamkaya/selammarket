@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SelamMarket.Comman\SelamMarket.Comman.csproj" />
+    <ProjectReference Include="..\SelamMarket.Logging\SelamMarket.Logging.csproj" />
+    <ProjectReference Include="..\SelamMarket.Publisher.Service\SelamMarket.Publisher.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
